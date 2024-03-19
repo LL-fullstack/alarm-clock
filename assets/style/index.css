@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Nunito-sans', 'Arial', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f3f4; 
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clock {
+    font-size: 88px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#alarmForm input {
+    margin: 8px;
+    padding: 8px;
+    width: 75px;
+    border-radius: 8px;
+    border-style: hidden;
+}
+
+#alarmForm button {
+    margin: 10px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 18px;
+    background-color: green;
+    border-style: hidden;
+}
+
+button[type="submit"] {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#alarmForm button:hover {
+    background-color: #7a53d4;
+    cursor: pointer;
+} 
+
+#alarmSetting {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
